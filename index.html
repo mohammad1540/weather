@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="w-[100vw] h-[100vh] flex justify-center items-center">
+      <div class="w-[30%] h-[83%] bg-[#090930] rounded-[15px] max-sm:w-[100%]">
+        <div class="w-[100%] h-[80px] flex justify-evenly items-center max-sm:w-[100%] ">
+          <input
+          id="inputCity"
+            class="w-[70%] h-[40px] bg-slate-50 rounded-[15px] pl-[10px] max-sm:w-[60%] "
+            placeholder="City Name..."
+            type="text"
+          />
+          <button id="add" class="p-[8px_16px] bg-white rounded-[15px] max-sm:w-[30%]">
+            search...
+          </button>
+        </div>
+        <div class="w-[100%] h-[250px]"></div>
+        <div
+          class="w-[100%] h-[250px] flex flex-wrap gap-[5px] justify-evenly items-center"
+        >
+          <div
+            class="w-[48%] h-[120px] bg-[#18184d] rounded-[15px] shadow-[5px_5px_10px] shadow-[#1e2d48] flex justify-center items-center p-[10px]"
+          >
+            <h2 class="text-[28px] text-white font-sans" id="city"></h2>
+          </div>
+          <div
+            class="w-[48%] h-[120px] bg-[#18184d] rounded-[15px] shadow-[5px_5px_10px] shadow-[#1e2d48] flex justify-center items-center p-[10px]"
+          >
+            <h2 class="text-[28px] text-white font-sans" id="description"></h2>
+          </div>
+          <div
+            class="w-[48%] h-[120px] bg-[#18184d] rounded-[15px] shadow-[5px_5px_10px] shadow-[#1e2d48] flex justify-center items-center p-[10px]"
+          >
+            <h2 class="text-[28px] text-white font-sans" id="temp"></h2>
+          </div>
+          <div
+            class="w-[48%] h-[120px] bg-[#18184d] rounded-[15px] shadow-[5px_5px_10px] shadow-[#1e2d48] flex justify-center items-center p-[10px]"
+          >
+            <h2 class="text-[28px] text-white font-sans" id="wind"></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
